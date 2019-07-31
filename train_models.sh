@@ -1,4 +1,4 @@
-for i in 4 1 0; do
+for i in 2 1 0; do
 python -m src.bert_finetuning --data_dir data/v2/fold_$i \
                               --model_type xlnet \
                               --model_name_or_path 'xlnet-base-cased' \
