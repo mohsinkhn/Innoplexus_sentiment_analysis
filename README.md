@@ -25,7 +25,10 @@ Similarly, I finetuned XLNET base, which gave CV score 0.64 and LB 0.58. Final s
 
 #### Reproducing LB results:
 * Clone repo
-* change data path in src/config.py
+* run `sudo apt-get install python3.6`
+* run `sudo apt-get install vitualenv`
+* run `mkdir data`
+* copy train.csv and test.csv in data folder 
 * run `bash run_all.sh`
 
 
